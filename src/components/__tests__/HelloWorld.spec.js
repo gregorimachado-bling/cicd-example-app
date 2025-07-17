@@ -15,9 +15,9 @@ describe('HelloWorld', () => {
 
     await button.trigger('click')
 
-    expect(button.text()).toBe('count is 1')
+    expect(button.text()).toBe('count is 2')
 
     await button.trigger('click')
-    expect(button.text()).toBe('count is 2')
+    expect(button.text()).toBe('count is 4')
   })
 })
